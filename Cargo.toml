@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "lecture-1/hello-world",
+    "lecture-2/simple-dt-1",
+]
