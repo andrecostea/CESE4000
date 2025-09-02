@@ -1,5 +1,12 @@
 [workspace]
 members = [
     "lecture-1/hello-world",
+    "lecture-1/type-inf",
+    "lecture-1/euler",
+    "lecture-1/lcm",
+    "lecture-1/collatz",
+    "lecture-1/max-path",
     "lecture-2/simple-dt-1",
+    "lecture-2/overflow",
+    "lecture-2/overflow-allow",
 ]
