@@ -11,5 +11,7 @@ members = [
     "lecture-2/overflow-allow",
     "lecture-2/array_vec",
     "lecture-2/udp",
-    "lecture-2/assignment-2",
+    "lecture-2/assignment-2", 
+    "lecture-3/o1-onwership",
+
 ]
