@@ -12,6 +12,7 @@ members = [
     "lecture-2/array_vec",
     "lecture-2/udp",
     "lecture-2/assignment-2", 
-    "lecture-3/o1-onwership",
+    "lecture-3/o1-onwership", 
+    "lecture-3/o2-references", "lecture-4/growing-vect", "lecture-4/refactor",
 
 ]
