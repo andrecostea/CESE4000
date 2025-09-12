@@ -3,7 +3,7 @@ fn main() {
 
   let first_elem = &x[0];
 
-  //x.push(4);
+  // x.push(4);
 
   println!("{}", first_elem);
 }

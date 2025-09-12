@@ -1,3 +1,5 @@
+ // To denote constants, the convention is to use ALL_CAPS (with underscores if needed) 
+ 
 const LIMIT: u64 = 1_000_000;
 
 /// Compute the length of the Collatz sequence starting from `n`.

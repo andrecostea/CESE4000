@@ -1,3 +1,4 @@
+// To denote constants, the convention is to use ALL_CAPS (with underscores if needed) 
 const START: u32 = 1;
 const END: u32 = 20;
 

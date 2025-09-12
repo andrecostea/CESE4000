@@ -18,7 +18,7 @@ impl List {
     fn length(&self) -> usize {
         match self {
             List::End => 0,
-            List::Item(_, next) => 1 + next.length(),
+            List::Item(_, next) => 1 + next.length()
         }
     }
 }
