@@ -10,12 +10,12 @@ impl Range {
         Range { start, end }
     }
 
-    /// Length of the range
+    // Length of the range
     fn len(&self) -> usize {
         self.end - self.start
     }
 
-    /// Middle of the range
+    // Middle of the range
     fn middle(&self) -> usize {
         (self.start + self.end) / 2
     }

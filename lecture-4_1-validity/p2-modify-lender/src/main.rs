@@ -3,7 +3,7 @@ fn main(){
 
    let i = &x;
 
-   // x = vec![3,4];  // this binding, if allowed, could cause an UF in the next dereference
+   // x = vec![3,4];  // Compiler would reject. This binding, if allowed, could cause an UF in the next dereference. 
  
    println!("{}", i[0]);
  }

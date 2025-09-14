@@ -29,6 +29,13 @@ members = [
     "lecture-4_1-validity/p4-reborrow",
     "lecture-4_1-validity/p5-lifetimes", 
     "lecture-4_2-enum/assignment", 
-    "lecture-4_2-enum/p1-ipaddress", "lecture-4_2-enum/p2-option", "lecture-4_2-enum/p3-error", 
-    
+    "lecture-4_2-enum/p1-ipaddress", 
+    "lecture-4_2-enum/p2-option", 
+    "lecture-4_2-enum/p3-error", 
+    "lecture-5-generics-traits/p-struct-as-enum", 
+    "lecture-5-generics-traits/p1-generics", 
+    "lecture-5-generics-traits/p2-generics", 
+    "lecture-5-generics-traits/p3-generics", 
+    "lecture-5-generics-traits/p4-traits", 
+    "lecture-5-generics-traits/p5-traits",
 ]

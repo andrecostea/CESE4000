@@ -3,6 +3,7 @@ fn main(){
 
   // index 0, and 1 (excluding 2)
   let a: &mut [u32] = &mut x[0..2];
+  
   for i in a {
     *i += 3;
   }

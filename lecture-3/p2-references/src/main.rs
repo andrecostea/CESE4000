@@ -3,7 +3,7 @@ fn main() {
 
   let first_elem = &x[0];
 
-  // x.push(4);
+  // x.push(4);  //COMPILATION ERROR: while a shared reference is alive, we cannot modify the lender
 
   println!("{}", first_elem);
 }
