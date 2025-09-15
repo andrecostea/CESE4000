@@ -45,6 +45,7 @@ impl <T: ToString, const N: usize> Packet<T,N> {
 type NumPacket  = Packet<i32,4>;
 type CharPacket = Packet<char, 3>;
 
+
 struct ID(char);
 type MyCharPacket = Packet<ID, 3>;
 

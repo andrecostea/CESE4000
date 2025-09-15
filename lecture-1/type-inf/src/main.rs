@@ -5,8 +5,8 @@
   }
   
   fn main () {                        
-    let mut x: i32 = { example() + 6 };
-    let y: &mut i32 = &mut x;          
-    *y += 5;                             
-    println!("Hello, world: {}", y);   
+    let mut x: i32 = { example() + 6 };  // expression composition
+    let y: &mut i32 = &mut x;            // mutable reference 
+    *y += 5;                             // mutate the value stored in x
+    println!("Hello, world: {}", y);     // print through the reference y
   }

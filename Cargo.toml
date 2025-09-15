@@ -37,5 +37,6 @@ members = [
     "lecture-5-generics-traits/p2-generics", 
     "lecture-5-generics-traits/p3-generics", 
     "lecture-5-generics-traits/p4-traits", 
-    "lecture-5-generics-traits/p5-traits",
+    "lecture-5-generics-traits/p5-traits", 
+    "lecture-5-generics-traits/p6-error", "lecture-5-generics-traits/p7-error",
 ]
