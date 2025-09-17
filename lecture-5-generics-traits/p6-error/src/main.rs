@@ -9,22 +9,23 @@ enum MyError {
     Error3,
     Error4,
     Error5,
+    Error6,
     Io(io::Error),
 }
 
-
+ 
 impl From<io::Error> for MyError {
     fn from(err: io::Error) -> Self {
         MyError::Io(err)
     }
 }
 
-fn read_file(filename: &Path) -> Result<i32, MyError>{
+fn from_file(filename: &Path) -> Result<i32, MyError>{
     let res = fs::read_to_string(filename);
-/*   let content = match res {
+    /* let content = match res {
          Ok(i) => i,
         Err(e) => return Err(MyError::Io(e)),
-    }; */
+    };  */
     let content = res?;
 
     Ok(1)
