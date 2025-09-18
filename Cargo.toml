@@ -40,5 +40,5 @@ members = [
     "lecture-5-generics-traits/p5-traits", 
     "lecture-5-generics-traits/p6-error", "lecture-5-generics-traits/p7-error", 
     "lecture-6-iterators/p1-iter", "lecture-6-iterators/p2-split", "lecture-6-iterators/p3-lazy", 
-    "lecture-6-iterators/p4-fib", "lecture-6-iterators/p5-mycol",
+    "lecture-6-iterators/p4-fib", "lecture-6-iterators/p5-mycol", "lecture-6-iterators/p6-consuming-adapters",
 ]

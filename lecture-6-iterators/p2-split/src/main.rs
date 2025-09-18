@@ -23,12 +23,11 @@ fn main() {
     let words: Vec<&str> = sentence.split(' ').collect();
     println!("{:?}", words); // ["The", "wind", "is", "gentle"]
 
-    let &[w1, w2, w3, w4] = sentence
-                                                           .split(' ')
-                                                            .collect::<Vec<_>>()
-                                                            .as_slice() else {
-        todo!();
-    }; 
+    let &[w1, w2, w3, w4] = sentence.split(' ')
+                                    .collect::<Vec<_>>()
+                                    .as_slice() else {
+                                      todo!();
+                                    }; 
     
     // Iterate without collecting
     for word in sentence.split(' ') {

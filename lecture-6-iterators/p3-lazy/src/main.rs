@@ -18,7 +18,7 @@ fn main() {
 
     // Nothing has happened yet!
     //let result: Vec<_> = iter.collect();
-    let result: Vec<_> = iter.take(5).collect();
+    let result: Vec<_> = iter.take(5).collect();  // collect forces the iterator to consume the elements
 
     println!("--- After collecting ---");
     // println!("Data: {:?}", data);
