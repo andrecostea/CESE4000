@@ -1,7 +1,7 @@
 use std::collections::{LinkedList,HashMap,HashSet,BTreeMap,BTreeSet};
 
 fn arr_classic() {
-    let mut data = [1,2,3];  // [1, 4 ,9]
+    let mut data = vec![1,2,3];  // [1, 4 ,9]
 
     print!("{} ", data[0] * data[0]);
     print!("{} ", data[1] * data[1]);
@@ -50,7 +50,7 @@ fn arr_classic() {
 }
 
 fn arr_iter() {
-    let mut data = [1,2,3];  // [1, 4 ,9]
+    let mut data = vec![1,2,3];  // [1, 4 ,9]
 
     // ----------- squares -----------
     println!("squares: ");
@@ -89,7 +89,7 @@ fn arr_iter() {
 
   fn many_iter(){
     // ------------ array ------------
-    let data = [1,2,3];  
+    let data = vec![1,2,3];  
     data.iter().for_each(|temp| print!("arr {} ", temp));
     println!();println!();
     
@@ -132,4 +132,5 @@ fn main() {
     arr_iter();
 
     many_iter();
+
 }

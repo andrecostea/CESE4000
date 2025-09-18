@@ -15,16 +15,20 @@ fn closure_example() {
 fn main() {
     let sentence = "The wind is gentle";
     
+    let characters: Vec<char> = sentence.chars().collect();
+    println!("{:?}", characters);
+    // ['T', 'h', 'e', ' ', 'w', 'i', 'n', 'd', ' ', 'i', 's', ' ', 'g', 'e', 'n', 't', 'l', 'e']
+
     // Split by space ' '
     let words: Vec<&str> = sentence.split(' ').collect();
     println!("{:?}", words); // ["The", "wind", "is", "gentle"]
 
     let &[w1, w2, w3, w4] = sentence
-                                                            .split(' ')
+                                                           .split(' ')
                                                             .collect::<Vec<_>>()
                                                             .as_slice() else {
         todo!();
-    };
+    }; 
     
     // Iterate without collecting
     for word in sentence.split(' ') {
