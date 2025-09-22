@@ -12,7 +12,7 @@ fn main() {
     /* ***** DECORATE BREAD ***** */
     let mut iter = bread.iter_mut()
                     .map(|x| *x = x.to_uppercase());
-    // iter.by_ref().take(2).collect::<Vec<_>>();  // Use by_ref to use the iterator again
+    //iter.by_ref().take(2).collect::<Vec<_>>();  // Use by_ref to use the iterator again
     iter.take(2).collect::<Vec<_>>(); /* -------- Q: What happens if I try to use iter again after collecting? -------- */
     //resume iteration where it left off
     println!("decorated bread: {:?}", bread);
