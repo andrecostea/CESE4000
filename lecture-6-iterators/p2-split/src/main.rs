@@ -31,7 +31,38 @@ fn main() {
     
     // Iterate without collecting
     for word in sentence.split(' ') {
-        println!("{}", word);
+        println!("w {}", word);
     }
 
+
+    /* -------- owned words -------- */
+
+    // Now destructure into owned Strings
+    let [w1, w2, w3, w4] = sentence
+        .split(' ')
+        .map(|w| w.to_string()) // turn &str into String (owned)
+        .collect::<Vec<_>>()
+        .try_into().unwrap();
+
+    println!("{w1}, {w2}, {w3}, {w4}");
+    println!("sentence: {sentence}");
+
+
+    /* -------- owned words, consume sentence -------- */
+
+    let mut sentence = String::from("The wind is gentle");
+    
+    let [w1, w2, w3, w4] = sentence
+        .drain(..) // consumes the buffer
+        .collect::<String>() 
+        .split(' ')
+        .map(|w| w.to_owned()) // allocate new owned String
+        .collect::<Vec<_>>()
+        .try_into().unwrap();
+
+    println!("{w1}, {w2}, {w3}, {w4}");
+    println!("sentence: {sentence}");  // sentence is empty
 }
+
+
+
