@@ -40,5 +40,5 @@ members = [
     "lecture-5-generics-traits/p5-traits", 
     "lecture-5-generics-traits/p6-error", "lecture-5-generics-traits/p7-error", 
     "lecture-6-iterators/p1-iter", "lecture-6-iterators/p2-split", "lecture-6-iterators/p3-lazy",  "lecture-6-iterators/p4-fib", "lecture-6-iterators/p5-mycol", #"lecture-6-iterators/p6-consuming-adapters", 
-    "lecture-7/p1-recap-iter", "lecture-7/p2-iter-take2", "lecture-7/p3-ref-casting", "lecture-7/p4-box", "lecture-7/p5-box-deref", "lecture-7/p6-dyn-col", "lecture-7/p7-dyn-iter", "lecture-7/p8-test",
+    "lecture-7/p1-recap-iter", "lecture-7/p2-iter-take2", "lecture-7/p3-ref-casting", "lecture-7/p4-box", "lecture-7/p5-box-deref", "lecture-7/p6-dyn-col", "lecture-7/p7-dyn-iter", "lecture-7/p8-test", "lecture-8/p1-deref",
 ]
